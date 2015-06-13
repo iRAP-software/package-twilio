@@ -1,0 +1,25 @@
+{
+    "name": "irap/twilio",
+    "type": "library",
+    "description": "A wrapper around the Twilio SDK",
+    "keywords": ["twilio", "sms", "api"],
+    "homepage": "http://github.com/twilio/twilio-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "stuart.page@irap.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "twilio/sdk": "3.12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "iRAP\\Twilio\\": ""
+        }
+    }
+}
